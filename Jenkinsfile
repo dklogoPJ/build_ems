@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/dklogo/laravel-login-AUTH.git'
+                git 'https://github.com/dklogoPJ/build_ems.git'
             }
         }
         stage('Build') {
